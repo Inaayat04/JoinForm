@@ -1,7 +1,6 @@
 name: JoinForm
+version: 1.0.0
 main: Inaayat\JoinForm\Main
 api: [3.0.0, 4.0.0]
-version: 1.0.0
 author: Inaayat
-
 description: "JoinForm pocketmine plugin by Inaayat."
