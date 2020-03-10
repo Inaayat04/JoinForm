@@ -1,0 +1,16 @@
+---
+#Join Form Configuation:
+#You can use § for colours.
+
+Form-Title: "Join Form"
+
+#Form Message 
+#Write what the news update on the server etc.
+
+#Warning If you wanna skip or go to another line do "\n" example: Hello welcome\n to the server.
+Form-Content: "Hello welcome to the server\n Enjoy you're time."
+
+#Sumbit message.
+#write what will it says when they click sumbit
+Sumbit-Msg: "Thanks for reading Join Form"
+...
