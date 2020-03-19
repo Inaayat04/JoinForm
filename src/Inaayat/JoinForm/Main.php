@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener{
 		@mkdir($this->getDataFolder());
         $this->config = new Config($this->getDataFolder."config.yml", Config::YAML);
         $this->saveDefault("config.yml");
-		$this->getLogger()->info("plugin by Inaayat has been enabled succesfully.");
+	
 	}
 
 	public function onJoin(PlayerJoinEvent $event){
