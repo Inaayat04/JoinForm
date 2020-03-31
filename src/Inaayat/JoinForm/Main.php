@@ -8,7 +8,7 @@ use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
-use jojoe77777\FormAPI\CustomForm;
+
 use jojoe77777\FormAPI\SimpleForm;
 
 class Main extends PluginBase implements Listener{
