@@ -1,6 +1,6 @@
 <?php
 
-namespace Inaayat\JoinForm\Main;
+namespace Inaayat\JoinForm;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
