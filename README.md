@@ -2,11 +2,9 @@
 
 JoinForm pocketmine plugin by Inaayat 
 
-| HitCount |
-|:--:|
-[![HitCount](http://hits.dwyl.io/Inaayat04/JoinForm.svg)](http://hits.dwyl.io/Inaayat04/JoinForm)
-[![](https://poggit.pmmp.io/shield.api/JoinForm)](https://poggit.pmmp.io/p/JoinForm)
-<a href="https://poggit.pmmp.io/p/JoinForm"><img src="https://poggit.pmmp.io/shield.api/JoinForm"></a>
+| HitCount | Poggit Status |
+|:--:|:--:|
+[![HitCount](http://hits.dwyl.io/Inaayat04/JoinForm.svg)](http://hits.dwyl.io/Inaayat04/JoinForm)[![](https://poggit.pmmp.io/shield.api/JoinForm)](https://poggit.pmmp.io/p/JoinForm)
 
 ### Depencies / Require plugin
 [FormAPI](https://poggit.pmmp.io/p/FormAPI/1.3.0)
