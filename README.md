@@ -7,7 +7,9 @@ JoinForm pocketmine plugin by Inaayat
 [![HitCount](http://hits.dwyl.io/Inaayat04/JoinForm.svg)](http://hits.dwyl.io/Inaayat04/JoinForm)
 
 ### Depencies / Require plugin
-[FormAPI](* https://poggit.pmmp.io/p/FormAPI/1.3.0)
+[FormAPI]
+|:--:|
+* (https://poggit.pmmp.io/p/FormAPI/1.3.0)
 
 * When a player join you're server they will get a Form with message's you can config then in Config.yml*
 
