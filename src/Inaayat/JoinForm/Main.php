@@ -40,6 +40,10 @@ class Main extends PluginBase implements Listener{
         });
         $formtitle = $this->config->get("Form-Title");
         $formcontent = $this->config->get("Form-Content");
+        $formcontent = str_replace("{MAX_PLAYERS}", $this->getServer()->getMaxPlayers(), $formcontent);
+        $formcontent = str_replace("{ONLINE}", count($this->getServer()->getOnlinePlayers()), $formcontent);
+        $formcontent = str_replace("{PLAYERNAME}", $player->getName(), $formcontent);
+        
 
         $joinform->setTitle($formtitle);
         $joinform->setContent($formcontent);
