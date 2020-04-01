@@ -5,4 +5,7 @@ branches:
 projects:
   JoinForm:
     path: ""
+    lint: false
+    lint:
+      phpstan: false
 ...
