@@ -1,6 +1,11 @@
 ---
 #Join Form Configuation:
 #You can use § for colours.
+#{MAX_PLAYERS} Will show the server max amount stole.
+#{ONLINE} Will show how how much player(s) is online on the server.
+#{PLAYERNAME} Will show the name of the player, Example:
+#§b§lWelcome back {PLAYERNAME} /n There {ONLINE} / {MAX_PLAYERS} Online(s).
+#Info: /n mean go to another line.
 
 Form-Title: "Join Form"
 
