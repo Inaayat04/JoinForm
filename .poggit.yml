@@ -5,7 +5,9 @@ branches:
 projects:
   JoinForm:
     path: ""
-    lint: false
+    libs:
+      - src: jojoe77777/FormAPI/SimpleForm
+        version: 3.1.0
     lint:
       phpstan: false
 ...
