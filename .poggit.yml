@@ -6,7 +6,7 @@ projects:
   JoinForm:
     path: ""
     libs:
-      - src: jojoe77777/FormAPI/SimpleForm
+      - src: jojoe77777/FormAPI/FormAPI
         version: 3.1.0
     lint:
       phpstan: false
