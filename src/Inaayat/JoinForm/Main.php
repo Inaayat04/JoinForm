@@ -14,6 +14,7 @@ use jojoe77777\FormAPI\SimpleForm;
 class Main extends PluginBase implements Listener{
 
 	public $config;
+	public const PREFIX = "§8[§bJoinUI§8]§r ";
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -32,7 +33,7 @@ class Main extends PluginBase implements Listener{
                 switch ($result) {
                     case 0:
                     $sumbitmsg = $this->config->get("Sumbit-Msg");
-                    $player->sendMessage($sumbitmsg);
+                    $player->sendMessage(self::PREFIX . $sumbitmsg);
                         break;
                 }
             }
@@ -42,8 +43,7 @@ class Main extends PluginBase implements Listener{
 
         $joinform->setTitle($formtitle);
         $joinform->setContent($formcontent);
-        $joinform->addButton("§d§lSumbit", 0, "textures/items/paper");
+        $joinform->addButton("§d§lSumbit");
         $player->sendForm($joinform);
 	}
-
 }
