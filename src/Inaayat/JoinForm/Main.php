@@ -20,8 +20,8 @@ class Main extends PluginBase implements Listener{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
                 $this->getServer()->getPluginManager()->getPlugin("FormAPI");
 		@mkdir($this->getDataFolder());
-                $this->config = $this->getConfig();
-                $this->saveDefaultConfig();
+                $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
+                $this->saveResources("config.yml");
 	}
 
 	public function onJoin(PlayerJoinEvent $event){
