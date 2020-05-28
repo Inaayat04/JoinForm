@@ -8,10 +8,9 @@ use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
-
 use jojoe77777\FormAPI\SimpleForm;
 
-class Main extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener {
 
 	public $config;
 	public const PREFIX = "§8[§bJoinUI§8]§r ";
@@ -25,23 +24,22 @@ class Main extends PluginBase implements Listener{
 	}
 
 	public function onJoin(PlayerJoinEvent $event){
-		$player = $event->getPlayer();
+	    $player = $event->getPlayer();
 
-		$joinform = new SimpleForm(function (Player $player, $data){
+	    $joinform = new SimpleForm(function (Player $player, $data){
             $result = $data;
             if ($result !== null) {
                 switch ($result) {
                     case 0:
                     $sumbitmsg = $this->config->get("Sumbit-Msg");
                     $player->sendMessage(self::PREFIX . $sumbitmsg);
-                        break;
+                    break;
                 }
             }
         });
         $formtitle = $this->config->get("Form-Title");
         $formcontent = $this->config->get("Form-Content");
         
-
         $joinform->setTitle($formtitle);
         $joinform->setContent($formcontent);
         $joinform->addButton("§d§lSumbit");
